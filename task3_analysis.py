@@ -7,9 +7,9 @@ INPUT_CSV = 'data/trends_clean.csv'
 OUTPUT_CSV = 'data/trends_analysed.csv'
  
  
-# ============================================================
-# TASK 1: Load and Explore (4 marks)
-# ============================================================
+
+# TASK 1: Load and Explore 
+
  
 def load_and_explore():
     """
@@ -49,9 +49,9 @@ def load_and_explore():
         return None
  
  
-# ============================================================
-# TASK 2: Basic Analysis with NumPy (8 marks)
-# ============================================================
+
+# TASK 2: Basic Analysis with NumPy 
+
  
 def numpy_analysis(df):
     """
@@ -97,9 +97,9 @@ def numpy_analysis(df):
     print(f'Most commented story: "{most_commented_story["title"]}" — {most_commented_story["num_comments"]:,} comments')
  
  
-# ============================================================
-# TASK 3: Add New Columns (5 marks)
-# ============================================================
+
+# TASK 3: Add New Columns 
+
  
 def add_new_columns(df):
     """
@@ -124,9 +124,9 @@ def add_new_columns(df):
     return df
  
  
-# ============================================================
-# TASK 4: Save the Result (3 marks)
-# ============================================================
+
+# TASK 4: Save the Result 
+
  
 def save_result(df):
     """
@@ -142,9 +142,9 @@ def save_result(df):
     print(f"\nSaved to {OUTPUT_CSV}")
  
  
-# ============================================================
+
 # MAIN FUNCTION
-# ============================================================
+
  
 def main():
     """

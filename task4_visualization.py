@@ -7,9 +7,9 @@ INPUT_CSV = 'data/trends_analysed.csv'
 OUTPUT_FOLDER = 'outputs'
  
  
-# ============================================================
-# TASK 1: Setup (2 marks)
-# ============================================================
+
+# TASK 1: Setup 
+
  
 def setup():
     """
@@ -39,9 +39,9 @@ def setup():
     return df
  
  
-# ============================================================
-# TASK 2: Chart 1 - Top 10 Stories by Score (6 marks)
-# ============================================================
+
+# TASK 2: Chart 1 - Top 10 Stories by Score 
+
  
 def create_chart1_top_stories(df):
     """
@@ -91,9 +91,9 @@ def create_chart1_top_stories(df):
     print(f"  ✓ Saved: {output_path}")
  
  
-# ============================================================
-# TASK 3: Chart 2 - Stories per Category (6 marks)
-# ============================================================
+
+# TASK 3: Chart 2 - Stories per Category 
+
  
 def create_chart2_categories(df):
     """
@@ -148,9 +148,9 @@ def create_chart2_categories(df):
     print(f"  ✓ Saved: {output_path}")
  
  
-# ============================================================
-# TASK 4: Chart 3 - Score vs Comments Scatter (6 marks)
-# ============================================================
+
+# TASK 4: Chart 3 - Score vs Comments Scatter 
+
  
 def create_chart3_scatter(df):
     """
@@ -200,9 +200,9 @@ def create_chart3_scatter(df):
     print(f"  ✓ Saved: {output_path}")
  
  
-# ============================================================
-# BONUS: Combined Dashboard (+3 marks)
-# ============================================================
+
+# BONUS: Combined Dashboard 
+
  
 def create_dashboard(df):
     """
@@ -291,9 +291,9 @@ def create_dashboard(df):
     print(f"  ✓ Saved: {output_path}")
  
  
-# ============================================================
+
 # MAIN FUNCTION
-# ============================================================
+
  
 def main():
     """

@@ -32,9 +32,9 @@ def find_latest_json():
     return os.path.join(DATA_FOLDER, json_files[0])
  
  
-# ============================================================
-# TASK 1: Load JSON into a Pandas DataFrame (4 marks)
-# ============================================================
+
+# TASK 1: Load JSON into a Pandas DataFrame 
+
  
 def load_json_to_dataframe():
     """
@@ -67,9 +67,9 @@ def load_json_to_dataframe():
         return None
  
  
-# ============================================================
-# TASK 2: Clean the Data (10 marks)
-# ============================================================
+
+# TASK 2: Clean the Data 
+
  
 def clean_data(df):
     """
@@ -107,9 +107,9 @@ def clean_data(df):
     return df
  
  
-# ============================================================
-# TASK 3: Save as CSV and Print Summary (6 marks)
-# ============================================================
+
+# TASK 3: Save as CSV and Print Summary 
+
  
 def save_to_csv(df):
     """
@@ -135,9 +135,7 @@ def save_to_csv(df):
         print(f"  {category:15} {count}")
  
  
-# ============================================================
-# MAIN FUNCTION
-# ============================================================
+
  
 def main():
     """
